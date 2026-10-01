@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Doctrine #3 Quiz</title>
+<style>
+:root{--navy:#0b2d63;--blue:#165db5;--pale:#eff6ff;--ink:#172033;--muted:#526177;--line:#cbd5e1;--card:#fff;--focus:#f59e0b}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:1rem;font:16px/1.5 Arial,sans-serif;color:var(--ink);background:linear-gradient(135deg,#f8fafc,#eaf2ff)}.wrap{max-width:1050px;margin:auto}.skip{position:fixed;top:.5rem;left:.5rem;z-index:10;transform:translateY(-160%);padding:.7rem;background:#111;color:#fff;border-radius:.5rem}.skip:focus{transform:none}header{text-align:center;margin:.5rem 0 1.25rem}h1{margin:.25rem;color:var(--navy);font-size:clamp(2rem,7vw,3rem)}.card{overflow:hidden;border:1px solid var(--line);border-radius:1.4rem;background:var(--card);box-shadow:0 15px 38px #17203322}.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.1rem 1.25rem;background:var(--navy);color:#fff}.bar h2{margin:0;font-size:1.3rem}.body{padding:1.2rem}.statement,.quiz{padding:1rem;border-radius:1rem;background:var(--pale);font-size:clamp(1.05rem,4vw,1.3rem)}.statement{border-left:.4rem solid var(--blue);font-weight:700;line-height:1.8}fieldset{margin:1.4rem 0;padding:0;border:0}legend{margin-bottom:.8rem;font-size:1.3rem;font-weight:800}.steps{display:grid;gap:.7rem}.choice{position:relative}.choice input{position:absolute;opacity:0}.choice label{display:flex;align-items:center;justify-content:space-between;min-height:60px;padding:.85rem 1rem;border:2px solid var(--line);border-radius:1rem;font-weight:800;cursor:pointer}.choice input:checked+label{border-color:var(--blue);background:var(--blue);color:#fff}.choice input:focus-visible+label,button:focus-visible,input:focus-visible{outline:4px solid var(--focus);outline-offset:3px}.note{padding:1rem;border-radius:1rem;background:#fef3c7;color:#451a03}.actions{display:flex;flex-direction:column;gap:.7rem;margin-top:1.2rem}.btn{min-height:54px;padding:.75rem 1.2rem;border:2px solid transparent;border-radius:.85rem;font-size:1rem;font-weight:800;cursor:pointer;touch-action:manipulation}.primary{background:var(--blue);color:#fff}.submit{background:#047857;color:#fff}.secondary{border-color:var(--line);background:var(--card);color:var(--ink)}.progress{font-weight:800;color:var(--navy)}.quiz{line-height:3.5;overflow-wrap:anywhere}.blank-wrap{display:inline-flex;align-items:center;white-space:nowrap}.blank{width:7rem;min-height:48px;margin:0 .2rem;border:2px solid #75a9e8;border-radius:.65rem;background:var(--card);color:var(--ink);text-align:center;font-size:16px;font-weight:800}.blank.short{width:4rem}.blank.long{width:10rem}.answer{padding:.2rem .45rem;border-radius:.4rem;background:#dbeafe;color:#062e88;font-weight:900}.wrong{padding:.2rem .45rem;border-radius:.4rem;background:#fee2e2;color:#b91c1c;font-weight:900;text-decoration:line-through;text-decoration-thickness:2px}.arrow{margin:0 .3rem;color:var(--muted);font-weight:800}.sticky{position:sticky;bottom:0;padding-top:1.2rem;padding-bottom:env(safe-area-inset-bottom);background:linear-gradient(transparent,var(--card) 30%)}.score{margin-top:1.2rem;padding:1.2rem;border-radius:1.2rem;background:linear-gradient(135deg,#174a91,#3730a3);color:#fff;text-align:center}.score strong{display:block;font-size:2.5rem}.hidden{display:none!important}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(min-width:680px){body{padding:2rem}.body{padding:2rem}.steps{grid-template-columns:repeat(2,1fr)}.actions{flex-direction:row;justify-content:space-between}.btn{min-width:170px}}
+@media(min-width:1000px){.steps{grid-template-columns:repeat(6,1fr)}.choice label{min-height:110px;flex-direction:column;align-items:flex-start;justify-content:center}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+@media(prefers-color-scheme:dark){:root{--ink:#f8fafc;--muted:#cbd5e1;--line:#526177;--card:#111827;--pale:#172554}body{background:linear-gradient(135deg,#020617,#0f172a)}.note{background:#422006;color:#fef3c7}.answer{background:#1e3a8a;color:#dbeafe}.wrong{background:#450a0a;color:#fecaca}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<main id="main" class="wrap" tabindex="-1">
+<header><div aria-hidden="true" style="font-size:2rem">📖</div><h1>Doctrine #3 Quiz</h1></header>
+<section id="intro" class="card" aria-labelledby="startHeading"><div class="bar"><h2 id="startHeading">Complete Statement</h2></div><div class="body">
+<blockquote class="statement">We believe that there are three persons in the Godhead – the Father, the Son and the Holy Ghost, undivided in essence and co-equal in power and glory</blockquote>
+<fieldset><legend>Select a Step</legend><div class="steps">
+<div class="choice"><input type="radio" name="step" id="s1" value="1" checked><label for="s1"><span>Step 1</span><small>3 Words</small></label></div>
+<div class="choice"><input type="radio" name="step" id="s2" value="2"><label for="s2"><span>Step 2</span><small>5 Words + 1 Punctuation Mark</small></label></div>
+<div class="choice"><input type="radio" name="step" id="s3" value="3"><label for="s3"><span>Step 3</span><small>7 Words + 2 Punctuation Marks</small></label></div>
+<div class="choice"><input type="radio" name="step" id="s4" value="4"><label for="s4"><span>Step 4</span><small>12 Words + 3 Punctuation Marks</small></label></div>
+<div class="choice"><input type="radio" name="step" id="s5" value="5"><label for="s5"><span>Step 5</span><small>20 Words + 4 Punctuation Marks</small></label></div>
+<div class="choice"><input type="radio" name="step" id="s6" value="6"><label for="s6"><span>Step 6</span><small>All Words + All Punctuation</small></label></div>
+</div></fieldset>
+<div class="note"><strong>Case-Sensitive Scoring:</strong> Uppercase and lowercase letters must match exactly. Blanks increase gradually through six steps. The hyphen (-), comma (,), and dash (–) are graded as different characters.</div>
+<div class="actions"><span></span><button id="start" class="btn primary">OK, Start Quiz</button></div></div></section>
+<section id="quizScreen" class="card hidden" aria-labelledby="quizHeading"><div class="bar"><div><h2 id="quizHeading">Step 1</h2><span id="stepLabel"></span></div><strong>Quiz in Progress</strong></div><div class="body"><p>Complete every blank. Punctuation marks are graded separately. Press Enter to move to the next blank.</p><p id="progress" class="progress" aria-live="polite"></p><div id="quiz" class="quiz"></div><div class="sticky"><div class="actions"><button class="btn secondary home">Back to Start</button><button id="submit" class="btn submit">Submit Answers</button></div></div></div></section>
+<section id="results" class="card hidden" aria-labelledby="resultsHeading"><div class="bar"><h2 id="resultsHeading">Quiz Results</h2><strong>Completed</strong></div><div class="body"><p>Correct answers appear in bold blue. Incorrect answers are crossed out in red and followed by the correct answer in blue.</p><div id="resultText" class="quiz"></div><div class="score" role="status" aria-live="polite"><span>Your Score</span><strong id="score"></strong><span id="percent"></span></div><div class="actions"><button id="retry" class="btn secondary">Retry This Step</button><button class="btn primary home">Choose Another Step</button></div></div></section>
+<div id="announce" class="sr" aria-live="assertive"></div>
+</main>
+<script>
+const words=["We","believe","that","there","are","three","persons","in","the","Godhead","–","the","Father",",","the","Son","and","the","Holy","Ghost",",","undivided","in","essence","and","co","-","equal","in","power","and","glory"];
+const levels={
+1:{label:"3 Words",blanks:[5,9,19]},
+2:{label:"5 Words + 1 Punctuation Mark",blanks:[1,5,6,9,10,19]},
+3:{label:"7 Words + 2 Punctuation Marks",blanks:[1,5,6,9,10,12,13,19,31]},
+4:{label:"12 Words + 3 Punctuation Marks",blanks:[0,1,5,6,9,10,12,13,15,19,20,23,27,29,31]},
+5:{label:"20 Words + 4 Punctuation Marks",blanks:[0,1,3,5,6,7,9,10,11,12,13,14,15,16,18,19,20,21,23,25,26,27,29,31]},
+6:{label:"All Words + All Punctuation",blanks:words.map((_,i)=>i)}};
+let step=1;const $=id=>document.getElementById(id);const screens={intro:$("intro"),quiz:$("quizScreen"),results:$("results")};
+function show(name){Object.entries(screens).forEach(([k,v])=>v.classList.toggle("hidden",k!==name));window.scrollTo(0,0);const h=screens[name].querySelector("h2");h.tabIndex=-1;h.focus()}
+function norm(v){return v.trim()}function correct(a,b){return norm(a)===norm(b)}function noSpaceBefore(w){return w===","||w==="-"}function noSpaceAfterPrevious(i){return i>0&&words[i-1]==="-"}function size(w){return [",","–","-"].includes(w)?"short":w.length>8?"long":""}
+function addSpacing(box,w,i){if(i&&!noSpaceBefore(w)&&!noSpaceAfterPrevious(i))box.append(" ")}
+function update(){const b=levels[step].blanks,n=b.filter(i=>$(`b${i}`)?.value.trim()).length;$("progress").textContent=`${n} of ${b.length} blanks completed`}
+function build(){const box=$("quiz"),b=levels[step].blanks;box.replaceChildren();words.forEach((w,i)=>{addSpacing(box,w,i);if(b.includes(i)){const n=b.indexOf(i)+1,wrap=document.createElement("span"),input=document.createElement("input");wrap.className="blank-wrap";input.id=`b${i}`;input.className=`blank ${size(w)}`;input.autocomplete="off";input.autocapitalize="off";input.spellcheck=false;input.setAttribute("aria-label",`Blank ${n} of ${b.length}. Case-sensitive.`);input.addEventListener("input",update);input.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();const next=b[n];next===undefined?$("submit").focus():$(`b${next}`).focus()}});wrap.append("(",input,")");box.append(wrap)}else box.append(w)});update()}
+function start(){step=Number(document.querySelector('input[name="step"]:checked').value);$("quizHeading").textContent=`Step ${step}`;$("stepLabel").textContent=levels[step].label;build();show("quiz");setTimeout(()=>$("quiz").querySelector("input")?.focus(),50)}
+function grade(){const b=levels[step].blanks,out=$("resultText");let count=0;out.replaceChildren();words.forEach((w,i)=>{addSpacing(out,w,i);if(b.includes(i)){const user=$(`b${i}`).value,ok=correct(user,w);if(ok)count++;const wrap=document.createElement("span");wrap.className="blank-wrap";wrap.append("(");if(ok){const ans=document.createElement("span");ans.className="answer";ans.textContent=w;wrap.append(ans)}else{const wrong=document.createElement("span");wrong.className="wrong";wrong.textContent=user||"No answer";const arrow=document.createElement("span");arrow.className="arrow";arrow.textContent="→";arrow.setAttribute("aria-hidden","true");const ans=document.createElement("span");ans.className="answer";ans.textContent=w;wrap.append(wrong,arrow,ans)}wrap.append(")");out.append(wrap)}else out.append(w)});const pct=Math.round(count/b.length*100);$("score").textContent=`${count} / ${b.length}`;$("percent").textContent=`${pct}%`;show("results");$("announce").textContent=`Quiz completed. You scored ${count} out of ${b.length}, or ${pct} percent.`}
+$("start").onclick=start;$("submit").onclick=grade;$("retry").onclick=()=>{build();show("quiz");setTimeout(()=>$("quiz").querySelector("input")?.focus(),50)};document.querySelectorAll(".home").forEach(b=>b.onclick=()=>show("intro"));
+</script>
+</body>
+</html>
